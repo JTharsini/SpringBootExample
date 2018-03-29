@@ -1,0 +1,5 @@
+lets you to bootstrap Spring application from scratch : Spring Boot
+
+Spring provides multiple facilities. In order to make them work, there are multiple ways. There is no best practice or like. To resolve it, Spring boot came into. Start with this opinion is provided by Spring boot.
+Since it gives opinions we should follow convention over configuration. It lets to create standalone application without finding a container and deployment pain. Development -> Production : no work in between.
+
