@@ -27,4 +27,12 @@ public class TopicBySpringJPAService {
 	public void addTopic(Topic topic) {
 		topicRepository.save(topic);
 	}
+	
+	public void updateTopic(String id, Topic topic) {
+		topicRepository.save(topic); // save can update and save
+	}
+
+	public void deleteTopic(String id) {
+		topicRepository.deleteById(id);
+	}
 }

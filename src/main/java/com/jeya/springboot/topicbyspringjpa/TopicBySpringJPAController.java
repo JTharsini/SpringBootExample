@@ -18,23 +18,27 @@ public class TopicBySpringJPAController {
 	private TopicBySpringJPAService topicService;
 
 	@RequestMapping("/topicsdb")
-	public List<Topic> getAllTopics() // return type will be converted to JSON
-										// object by framework because of
-										// annotation "@RestController"
-	{
+	public List<Topic> getAllTopics() {
 		return topicService.getAllTopics();
 	}
 
-	@RequestMapping("/topicsdb/{foo}") // if names are same no need to specify
-										// it in parenthesis
+	@RequestMapping("/topicsdb/{foo}")
 	public Topic getTopic(@PathVariable("foo") String id) {
 		return topicService.getTopic(id);
 	}
 
 	@RequestMapping(method = RequestMethod.POST, value = "/topicsdb")
-	public void addTopic(@RequestBody Topic topic) // topic is extracted from
-													// request body
-	{
+	public void addTopic(@RequestBody Topic topic) {
 		topicService.addTopic(topic);
+	}
+
+	@RequestMapping(method = RequestMethod.PUT, value = "/topicsdb/{id}")
+	public void updateTopic(@RequestBody Topic topic, @PathVariable String id) {
+		topicService.updateTopic(id, topic);
+	}
+
+	@RequestMapping(method = RequestMethod.DELETE, value = "/topicsdb/{id}")
+	public void deleteTopic(@PathVariable String id) {
+		topicService.deleteTopic(id);
 	}
 }
