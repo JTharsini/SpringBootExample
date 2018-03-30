@@ -8,7 +8,8 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class TopicService {
-	List<Topic> topics = new ArrayList(Arrays.asList(new Topic("topicId1", "Topic 1", "Topic 1 description"),
+	
+	List<Topic> topics = new ArrayList<Topic>(Arrays.asList(new Topic("topicId1", "Topic 1", "Topic 1 description"),
 			new Topic("topicId2", "Topic 2", "Topic 2 description"),
 			new Topic("topicId3", "Topic 3", "Topic 3 description")));
 

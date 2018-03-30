@@ -51,3 +51,36 @@ in post man rest client: raw, put and Content-Type is application/json
 	"name" : "Topic 3 updated",
 	"description" : "Topic 3 updated description"
 }
+=====================================================================================================================
+
+Starting Spring boot application:
+
+-Spring initializer (http://start.spring.io/)
+-Spring Boot CLI
+-STS IDE (Spring Starter Project option in eclipse by STS(create and import itself))
+
+Spring Boot CLI (install spring boot and run Groovy script to start Spring boot)
+
+in cmd:
+cd spring-2.0.0.RELEASE\bin (full path)
+nano app.groovy
+type the following:
+@RestController
+class AppCtrl{
+	@RequestMapping("/")
+	String app(){
+		"Hello world"
+	}
+}
+save and exit
+spring run app.groovy
+
+=====================================================================================================================
+application.properties options:
+https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+=====================================================================================================================
+Spring Data JPA (Java Persistent API)
+JPA is the API for ORM
+Apache Derby: Embedded database: download a jar in class path when application is get started this database server also get started and stopped also same.
+(not suitable for production, good for development for learning)
+No connection information is necessary
