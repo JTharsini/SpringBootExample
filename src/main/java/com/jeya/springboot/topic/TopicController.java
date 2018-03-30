@@ -40,6 +40,12 @@ public class TopicController {
 	{
 		topicService.updateTopic(id, topic);
 	}
+	
+	@RequestMapping(method=RequestMethod.DELETE, value="/topics/{id}")
+	public void deleteTopic(@PathVariable String id) // topic is extracted from request body
+	{
+		topicService.deleteTopic(id);
+	}
 }
 
 /**
