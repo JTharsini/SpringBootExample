@@ -36,3 +36,10 @@ DELETE /topics/id
 
 Business service is singleton in Spring
 
+in post man rest client: raw, post and Content-Type is application/json
+
+{
+	"id" : "topicId4",
+	"name" : "Topic 4",
+	"description" : "Topic 4 description"
+}
