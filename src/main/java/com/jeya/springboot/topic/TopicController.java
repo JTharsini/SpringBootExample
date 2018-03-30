@@ -34,6 +34,12 @@ public class TopicController {
 	{
 		topicService.addTopic(topic);
 	}
+	
+	@RequestMapping(method=RequestMethod.PUT, value="/topics/{id}")
+	public void updateTopic(@RequestBody Topic topic, @PathVariable String id) // topic is extracted from request body
+	{
+		topicService.updateTopic(id, topic);
+	}
 }
 
 /**

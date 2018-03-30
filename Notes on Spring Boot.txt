@@ -43,3 +43,11 @@ in post man rest client: raw, post and Content-Type is application/json
 	"name" : "Topic 4",
 	"description" : "Topic 4 description"
 }
+
+in post man rest client: raw, put and Content-Type is application/json
+
+{
+	"id" : "topicId3",
+	"name" : "Topic 3 updated",
+	"description" : "Topic 3 updated description"
+}
