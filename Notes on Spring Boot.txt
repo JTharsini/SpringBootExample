@@ -8,3 +8,31 @@ Spring boot access application containers or application context when it is star
 create a class and annotate with service or controller, then it will consider it as service or controller by performing class path scanning
 
 spring boot starts tomcat server
+
+In pom.xml dependency of spring boot starter web says the jars to download and parent project says version of those jars
+Bill of materials (Spring boot care about the version of jars which can work without issues)
+
+Embedded tomcat server:
+convenience
+can have container configuration in application.properties
+standalone application : easy to create, deploy and run
+useful for microservices architecture (don't need to start one by one)
+
+Controller:
+URI
+Http method
+functionality
+
+=====================================================================================================================
+Course API
+
+Topics:
+
+GET /topics
+GET /topics/id
+POST /topics create
+PUT /topics/id
+DELETE /topics/id
+
+Business service is singleton in Spring
+

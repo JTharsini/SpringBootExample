@@ -12,7 +12,7 @@
   </parent>
   
   <dependencies>
-  	<!-- This is like meta dependancy wrapping needy dependencies for a web application -->
+  	<!-- This is like meta dependency wrapping needy dependencies for a web application -->
   	<dependency>
   		<groupId>org.springframework.boot</groupId>
   		<artifactId>spring-boot-starter-web</artifactId>
