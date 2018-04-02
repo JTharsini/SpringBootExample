@@ -3,6 +3,7 @@
   <groupId>com.jeya.springboot</groupId>
   <artifactId>SpringBootExample</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
   
   <!-- default configuration comes with this -->
   <parent>

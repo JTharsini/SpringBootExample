@@ -91,4 +91,8 @@ packaging
 as jar: mvn clean install
 running jar : java -jar target\SpringBootExample-0.0.1-SNAPSHOT.jar
 
+as war: add <packaging>war</packaging>
+and clean install
+can be deployed in a container
+
 ----------------------------------------------------------------------------------------------------------------------
