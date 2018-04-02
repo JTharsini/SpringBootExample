@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.jeya.springboot.topic.Topic;
-import com.jeya.springboot.topic.TopicRepository;
 
 @Service
 public class TopicBySpringJPAService {
