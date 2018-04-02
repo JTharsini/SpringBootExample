@@ -1,8 +1,8 @@
 ----------------------------------------------------------------
-Mon Apr 02 12:34:23 IST 2018:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.1.0 - (1808820): instance a816c00e-0162-852b-cfaa-000016222098 
-on database directory memory:D:\Workspace\EclipseExternal\Workspace\SpringBootExample\testdb with class loader sun.misc.Launcher$AppClassLoader@659e0bfd 
-Loaded from file:/C:/Users/JJeyatharsini/.m2/repository/org/apache/derby/derby/10.14.1.0/derby-10.14.1.0.jar
+Mon Apr 02 13:14:24 IST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.1.0 - (1808820): instance a816c00e-0162-8550-6faa-0000121a8798 
+on database directory memory:D:\Workspace\EclipseExternal\Workspace\SpringBootExample\testdb with class loader org.springframework.boot.loader.LaunchedURLClassLoader@37f8bb67 
+Loaded from jar:file:/D:/Workspace/EclipseExternal/Workspace/SpringBootExample/target/SpringBootExample-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/derby-10.14.1.0.jar!/
 java.vendor=Oracle Corporation
 java.runtime.version=1.8.0_162-b12
 user.dir=D:\Workspace\EclipseExternal\Workspace\SpringBootExample

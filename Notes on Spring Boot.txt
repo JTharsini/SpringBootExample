@@ -84,3 +84,11 @@ JPA is the API for ORM
 Apache Derby: Embedded database: download a jar in class path when application is get started this database server also get started and stopped also same.
 (not suitable for production, good for development for learning)
 No connection information is necessary
+
+======================================================================================================================
+
+packaging
+as jar: mvn clean install
+running jar : java -jar target\SpringBootExample-0.0.1-SNAPSHOT.jar
+
+----------------------------------------------------------------------------------------------------------------------
